@@ -11,10 +11,16 @@
     
     <br>
     <img src="corona.JPG">
-    
+    <div style="text-align:center;" ng-if="settings.Authentication.RequireTermsAndConditions && !UserInfo.approvedTermsAndConditions && UserInfo.isAuthenticated">
+					<button style="margin:20px;" class="btn btn-primary" type="submit">  Terms and Conditions</button>
+				</div>
     <footer>
-  <p>Author: kawther ahmad</p>
-  <p><a href="www.gmail.com">kawtheralhabali29@gmail.com</a></p>
+<footer>
+  <p>Copyright &copy;2020</p>
 </footer>
+</footer>
+    
+    
+    
 </body>
 </html>
